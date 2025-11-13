@@ -1,0 +1,98 @@
+#main-nav {
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: #06402B;
+    float: left;
+}
+
+#main-nav ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+}
+
+#main-nav ul li {
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+#main-nav ul li a {
+    padding: 10px 25px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'DM Sans';
+    font-size: 30px;
+}
+
+#main-nav ul li a:hover {
+    background-color: #486856;
+}
+
+body {
+    width: 3000px;
+    margin: 0;
+    padding: 0;
+    background-color: #dbe8d7;
+}
+
+header {
+    width: 3000px;
+}
+
+iframe {
+    border: none;
+}
+
+#title {
+    font-size: 80px;
+    text-align: center;
+    margin: 30px;
+    padding-top: 30px;
+    font-family: 'Georgia';
+    font-weight: 400;
+}
+
+#blurb {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Parkinsans';
+    font-weight: 400;
+    padding: 1px;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+}
+
+.column {
+    width: 930px;
+    background-color: #FCFBF4;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Parkinsans';
+}
+
+.image-wagyu {
+    width: 900px;
+    padding: 15px;
+}
+
+.image-a {
+    width: 900px;
+    padding: 15px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Parkinsans';
+    font-size: 50px;
+    color: #06402B;
+}
