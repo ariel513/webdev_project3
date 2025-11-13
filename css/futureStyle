@@ -1,0 +1,127 @@
+
+#main-nav {
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: #06402B;
+    float: left;
+}
+
+#main-nav ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+}
+
+#main-nav ul li {
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+#main-nav ul li a {
+    padding: 10px 25px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'DM Sans';
+    font-size: 30px;
+}
+
+#main-nav ul li a:hover {
+    background-color: #486856;
+}
+
+#title {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 4%;
+    font-family: 'Georgia';
+    font-weight: 400;
+}
+
+#blurb {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Manrope';
+    font-weight: 300;
+    padding: 1%;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #084400;
+    padding: 8px;
+    text-align: center;
+    z-index: 1000;
+    color: white;
+    font-family: 'Manrope';
+    font-size: 25px;
+}
+
+div.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+div.flex-container > div {
+    margin: 10px;
+}
+
+@media screen and (max-width:600px) {
+    div.flex-container {
+        flex-direction: column;
+    }
+}
+
+#first-box {
+    background-color: #f2f8f2;
+    width: 50%;
+    padding: 1%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: darkgreen;
+    font-family: 'Manrope';
+    list-style-type: circle;
+    font-size: 22px;
+}
+
+
+
+#second{
+    background-color: #f2f8f2;
+    width: 50%;
+    padding: 1%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: darkgreen;
+    font-family: 'Manrope';
+    font-size: 22px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dbe8d7;
+}
+
+.image-bio {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image-duke {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
