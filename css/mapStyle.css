@@ -1,0 +1,57 @@
+
+#main-nav {
+  border: 1px solid #ccc;
+  width: 100%;
+  background-color: #06402B;
+  float: left;
+}
+
+#main-nav ul {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+}
+
+#main-nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+#main-nav ul li a {
+  padding: 10px 25px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-family: 'DM Sans';
+  font-size: 30px;
+}
+
+#main-nav ul li a:hover {
+  background-color: #486856;
+}
+
+#title {
+  font-size: 70px;
+  text-align: center;
+  margin: 30px;
+  padding-top: 30px;
+  font-family: 'Georgia';
+  font-weight: 400;
+}
+
+#googleMap {
+  height: 600px;
+  width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #dbe8d7;
+}

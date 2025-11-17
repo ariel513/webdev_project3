@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Map Page</title>
+
+    <link rel="stylesheet" type="text/css" href="css/mapStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    
+  </head>
+
+  <body>
+    <header>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">FAVORITES</a></li>
+          <li><a href="resume.html">RESUME</a></li>
+          <li><a href="future.html">FUTURE PLANS</a></li>
+          <li><a href="map.html">MAP</a></li>
+        </ul>
+      </nav>
+      <h1 id="title">WELCOME TO MY MAP PAGE</h1>
+    </header>
+    
+    <div id="googleMap"></div>
+    <script src="map.js" defer></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=myMap">
+    </script>
+  </body>
+</html>
