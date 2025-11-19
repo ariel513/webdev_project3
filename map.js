@@ -42,21 +42,27 @@ function myMap() {
     }
   });
     
-  const info1 = new google.maps.InfoWindow ({
-    content: 'My School'
-  });
+  const info1 = document.getElementById('school-info');
 
-  const info2 = new google.maps.InfoWindow ({
-    content: 'My Favorite Coffee Shop'
-  });
+  const info2 = document.getElementById('coffee-info');
 
-  const info3 = new google.maps.InfoWindow ({
-    content: 'My Summer Hangout Spot'
-  });
+  const info3 = document.getElementById('beach-info');
   
-  marker1.addListener('click', () => info1.open(mapProp, marker1));
-  marker2.addListener('click', () => info2.open(mapProp, marker2));
-  marker3.addListener('click', () => info3.open(mapProp, marker3));
+  const schoolInfo = new google.maps.InfoWindow ({
+    content: info1.innerHTML
+  });
+
+  const coffeeInfo = new google.maps.InfoWindow ({
+    content: info2.innerHTML
+  });
+
+  const beachInfo = new google.maps.InfoWindow ({
+    content: info3.innerHTML
+  });
+
+  marker1.addListener('click', () => schoolInfo.open(mapProp, marker1));
+  marker2.addListener('click', () => coffeeInfo.open(mapProp, marker2));
+  marker3.addListener('click', () => beachInfo.open(mapProp, marker3));
 
   document.getElementById("questionButton").addEventListener("click", function() {
     alert("If you have questions, contact me at: \nastvishor@cps.edu");

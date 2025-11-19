@@ -55,3 +55,20 @@ body {
   padding: 0;
   background-color: #dbe8d7;
 }
+
+h2,
+p {
+  font-family: 'DM Sans';
+}
+
+.hidden {
+  display: none;
+}
+
+#questionButton {
+  font-family: 'DM Sans';
+  font-size: 25px;
+  padding: 2px;
+  background-color: #06402B;
+  color: white;
+}
